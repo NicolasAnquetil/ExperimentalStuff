@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ZoteroClient",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"parentCollection",
+		"bibData"
+	],
+	"name" : "ZoteroItem",
+	"type" : "normal"
+}

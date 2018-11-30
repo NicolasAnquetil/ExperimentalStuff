@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "NicolasAnquetil 11/30/2018 17:12",
+	"super" : "Object",
+	"category" : "ZoteroClient",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"key",
+		"parentCollectionKey",
+		"items"
+	],
+	"name" : "ZoteroCollection",
+	"type" : "normal"
+}
