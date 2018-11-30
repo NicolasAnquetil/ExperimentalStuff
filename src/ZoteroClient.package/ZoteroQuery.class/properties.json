@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ZoteroClient",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"baseURL",
+		"znServer",
+		"accessKey"
+	],
+	"name" : "ZoteroQuery",
+	"type" : "normal"
+}
