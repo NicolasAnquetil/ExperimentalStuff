@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "NicolasAnquetil 11/30/2018 17:31",
 	"super" : "Object",
 	"category" : "ZoteroClient",
 	"classinstvars" : [ ],
@@ -10,6 +10,6 @@
 		"znServer",
 		"accessKey"
 	],
-	"name" : "ZoteroQuery",
+	"name" : "ZoteroClient",
 	"type" : "normal"
 }
