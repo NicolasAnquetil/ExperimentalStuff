@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenter",
+	"category" : "ZoteroClient-GUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"groupFld",
+		"collectionsLst",
+		"ItemsLst",
+		"ItemArea"
+	],
+	"name" : "ZoteroGUI",
+	"type" : "normal"
+}

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "NicolasAnquetil 11/30/2018 17:12",
 	"super" : "Object",
-	"category" : "ZoteroClient",
+	"category" : "ZoteroClient-entities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
