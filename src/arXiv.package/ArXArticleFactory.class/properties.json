@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "arXiv",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"content",
+		"lines",
+		"bounds"
+	],
+	"name" : "ArXArticleFactory",
+	"type" : "normal"
+}

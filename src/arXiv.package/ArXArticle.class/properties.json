@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "arXiv",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"url",
+		"authors",
+		"abstract"
+	],
+	"name" : "ArXArticle",
+	"type" : "normal"
+}

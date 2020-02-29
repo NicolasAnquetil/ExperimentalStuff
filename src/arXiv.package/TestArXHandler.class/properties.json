@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestArXAbstract",
+	"category" : "arXiv-tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"handler"
+	],
+	"name" : "TestArXHandler",
+	"type" : "normal"
+}

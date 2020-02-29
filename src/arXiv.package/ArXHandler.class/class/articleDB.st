@@ -1,0 +1,3 @@
+accessing
+articleDB
+	^ articleDB 
