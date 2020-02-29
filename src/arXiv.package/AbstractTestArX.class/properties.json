@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TestArXAbstract",
+	"name" : "AbstractTestArX",
 	"type" : "normal"
 }

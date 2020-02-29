@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TestArXAbstract",
+	"super" : "AbstractTestArX",
 	"category" : "arXiv-tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
