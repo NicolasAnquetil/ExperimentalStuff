@@ -1,3 +1,0 @@
-accessing
-collectionsLst
-	^ collectionsLst

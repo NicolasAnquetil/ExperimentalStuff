@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "NicolasAnquetil 3/29/2020 15:09",
 	"super" : "Object",
 	"category" : "ZoteroClient-entities",
 	"classinstvars" : [ ],
@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"key",
-		"parentCollection",
-		"bibData"
+		"parentCollection"
 	],
 	"name" : "ZoteroItem",
 	"type" : "normal"
