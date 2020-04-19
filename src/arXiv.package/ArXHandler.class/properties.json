@@ -1,10 +1,8 @@
 {
-	"commentStamp" : "Nicolasanquetil 4/19/2020 10:16",
+	"commentStamp" : "NicolasAnquetil 4/19/2020 10:46",
 	"super" : "CommandLineHandler",
 	"category" : "arXiv",
-	"classinstvars" : [
-		"articleDB"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

@@ -6,5 +6,6 @@ importMessage
 		ifFalse: [ ^ false ].
 	file := filename asFileReference.
 	file exists ifFalse: [ ^ false ].
+	self reloadDB.
 	self processMessage: file.
 	

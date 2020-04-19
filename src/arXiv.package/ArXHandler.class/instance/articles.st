@@ -1,3 +1,3 @@
 accessing
 articles
-	^self class articleDB	
+	^articles

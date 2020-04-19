@@ -1,5 +1,6 @@
 activation
 listKeywords
+	self reloadDB.
 	(self articles associations
 		sorted: [ :a :b | a key < b key ])
 		do: [ :assoc |

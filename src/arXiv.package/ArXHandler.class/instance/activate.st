@@ -1,5 +1,7 @@
 activation
 activate
+	self activateHelpWithoutArguments
+		ifTrue: [ ^ self ].
 	self checkArguments
 		ifFalse: [ ^ self printHelp ].
 
