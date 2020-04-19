@@ -1,3 +1,0 @@
-activation
-help
-	self printHelp

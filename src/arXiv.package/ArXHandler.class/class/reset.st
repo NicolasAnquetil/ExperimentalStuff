@@ -1,3 +1,3 @@
 accessing
 reset 
-	articleDB := Dictionary new
+	self articleDB: Dictionary new

@@ -3,4 +3,4 @@ activate
 	self checkArguments
 		ifFalse: [ ^ self printHelp ].
 
-	Smalltalk snapshot: true andQuit: true.
+	Smalltalk snapshot: false andQuit: true.
