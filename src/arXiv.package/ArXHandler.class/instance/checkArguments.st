@@ -1,14 +1,12 @@
 activation
 checkArguments
-	| filename |
+	| cmd |
 	self hasArguments
 		ifFalse: [ ^ false ].
 	
-	filename := self arguments first.
-	(filename endsWith: '.mbox')
-		ifFalse: [ ^ false ].
+	cmd := self arguments first asSymbol.
+	[ self perform: cmd ]
+   on: MessageNotUnderstood
+	do: [ ^ false ].
 
-	arXivFile := filename asFileReference.
-	arXivFile exists
-		ifFalse: [ ^ false ].
 	^ true
