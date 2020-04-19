@@ -1,8 +1,13 @@
 activation
 activate
+	| cmd |
 	self activateHelpWithoutArguments
-		ifTrue: [ ^ self ].
-	self checkArguments
-		ifFalse: [ ^ self printHelp ].
+		ifTrue: [ self exitFailure ].
 
-	Smalltalk snapshot: false andQuit: true.
+	cmd := self arguments first asSymbol.
+	[ self perform: cmd ]
+   on: MessageNotUnderstood
+	do: [
+		self printHelp.
+		self exitFailure ].
+	self exitSuccess 

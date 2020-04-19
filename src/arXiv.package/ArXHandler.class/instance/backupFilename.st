@@ -1,3 +1,3 @@
 accessing
 backupFilename
-	^'/home/anquetil/articles.json'
+	^'/home/anquetil/articles.ston'

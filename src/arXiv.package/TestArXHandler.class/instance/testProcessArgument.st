@@ -5,7 +5,7 @@ testProcessArgument
 	].
 	ArXHandler reset.
 	handler := self handlerWithArguments: #('tmp.mbox').
-	handler checkArguments.
+	handler interpretCommand.
 	handler processArguments.
 	self assert: ArXHandler articleDB size equals: 2.
 	self assert: (ArXHandler articleDB at: 'keyword1') size  equals: 1.

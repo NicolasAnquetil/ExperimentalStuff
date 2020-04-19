@@ -1,4 +1,4 @@
 tests
 testCheckArgumentsFail
-	self deny: (self handlerWithArguments: #()) checkArguments.
-	self deny: (self handlerWithArguments: #('arXiv')) checkArguments.
+	self deny: (self handlerWithArguments: #()) interpretCommand.
+	self deny: (self handlerWithArguments: #('arXiv')) interpretCommand.
