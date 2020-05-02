@@ -1,3 +1,3 @@
 accessing
 backupFilename
-	^'/home/anquetil/articles.ston'
+	^self backupFilename: 0

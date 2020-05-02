@@ -1,6 +1,6 @@
 private - utilities
 saveDB
-	self backupFilename asFileReference renameTo: 'articles.1.ston'.
+	FileSystem disk rename: self backupFilename to: self secondaryBackup.
 	self backupFilename asFileReference writeStreamDo: [ :st |
 		st nextPutAll: (STON toString: self articles) 
 	].
