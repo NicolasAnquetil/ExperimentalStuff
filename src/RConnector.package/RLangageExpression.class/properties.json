@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "na 5/6/2020 16:23",
+	"super" : "RObject",
+	"category" : "RConnector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"size"
+	],
+	"name" : "RLangageExpression",
+	"type" : "normal"
+}

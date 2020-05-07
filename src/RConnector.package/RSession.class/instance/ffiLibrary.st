@@ -1,0 +1,3 @@
+resources
+ffiLibrary 
+	^'libR.so'

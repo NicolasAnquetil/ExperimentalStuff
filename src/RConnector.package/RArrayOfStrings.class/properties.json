@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FFIExternalArray",
+	"category" : "RConnector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RArrayOfStrings",
+	"type" : "normal"
+}

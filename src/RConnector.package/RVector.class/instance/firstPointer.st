@@ -1,0 +1,3 @@
+accessing
+firstPointer
+	^ self subclassResponsibility 

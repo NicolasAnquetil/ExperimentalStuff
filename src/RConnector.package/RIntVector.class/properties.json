@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RVector",
+	"category" : "RConnector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RIntVector",
+	"type" : "normal"
+}

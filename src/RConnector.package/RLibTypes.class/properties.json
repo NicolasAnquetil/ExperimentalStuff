@@ -1,0 +1,39 @@
+{
+	"commentStamp" : "",
+	"super" : "SharedPool",
+	"category" : "RConnector-Core",
+	"classinstvars" : [
+		"typeRelatedToNumberCache"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"ANYSXP",
+		"BCODESXP",
+		"BUILTINSXP",
+		"CHARSXP",
+		"CLOSXP",
+		"CPLXSXP",
+		"DOTSXP",
+		"ENVSXP",
+		"EXPRSXP",
+		"EXTPTRSXP",
+		"INTSXP",
+		"LANGSXP",
+		"LGLSXP",
+		"LISTSXP",
+		"NILSXP",
+		"PROMSXP",
+		"RAWSXP",
+		"REALSXP",
+		"S4SXP",
+		"SEXP",
+		"SPECIALSXP",
+		"STRSXP",
+		"SYMSXP",
+		"VECSXP",
+		"WEAKREFSXP"
+	],
+	"instvars" : [ ],
+	"name" : "RLibTypes",
+	"type" : "normal"
+}
