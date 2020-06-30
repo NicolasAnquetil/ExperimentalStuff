@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "timeProfilingDiff",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"run1",
+		"run2"
+	],
+	"name" : "DiffProfiler",
+	"type" : "normal"
+}

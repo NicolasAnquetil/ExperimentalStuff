@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "timeProfilingDiff",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"prof",
+		"meths"
+	],
+	"name" : "DPRun",
+	"type" : "normal"
+}
