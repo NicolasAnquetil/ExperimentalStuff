@@ -9,6 +9,7 @@ show
 		and: (self shapeRight elementsOn: run2 methods).
 	v addAll: es.
 	es @ RTPopup.
+	es @ (RTShowEdge new connectToAll: [ :e | self siblingElement: e method]; shape: (RTLine new withHorizontalAttachPoint ; width: 5 ; color: Color black)).
 	RTGridLayout new
 		gapSize: 20 ;
 		lineItemsCount: 2 ;
