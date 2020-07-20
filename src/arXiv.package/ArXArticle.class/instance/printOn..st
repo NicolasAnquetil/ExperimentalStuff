@@ -1,4 +1,5 @@
 printing
 printOn: aStream
-	aStream nextPutAll: 'ArXArticle: '.
-	aStream nextPutAll: self title
+	aStream
+		nextPutAll: 'ArXArticle: ' ;
+		nextPutAll: self title

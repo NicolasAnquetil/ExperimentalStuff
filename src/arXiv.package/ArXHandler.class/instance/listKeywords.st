@@ -14,8 +14,8 @@ listKeywords
 				nextPutAll: (nbArt asString) ;
 				nextPut: Character cr
 		].
-		self stdout
-			nextPutAll: 'TOTAL - ' ;
-			nextPutAll: (totalArt asString) ;
-			nextPut: Character cr.
-		self exitSuccess 
+	self stdout
+		nextPutAll: 'TOTAL - ' ;
+		nextPutAll: (totalArt asString) ;
+		nextPut: Character cr.
+	self exitSuccess 
