@@ -4,9 +4,11 @@ neoJsonMapping: mapper
 		for: ZoteroCollection do: [ :mapping | 
 	      mapping mapInstVar: #key.
 			(mapping mapInstVar: #name to: #data)
-				valueSchema: #collectionName
+				valueSchema: #name.
+			mapping mapAccessor: #jsonMeta to: #meta
 		].
+
 	mapper
-		for: #collectionName customDo: [ :mapping |
+		for: #name customDo: [ :mapping |
 			mapping decoder: [ :dict | dict at: #name ]
 		]

@@ -9,6 +9,9 @@
 		"name",
 		"key",
 		"parentCollectionKey",
+		"nbSubCollections",
+		"subCollections",
+		"nbItems",
 		"items"
 	],
 	"name" : "ZoteroCollection",
