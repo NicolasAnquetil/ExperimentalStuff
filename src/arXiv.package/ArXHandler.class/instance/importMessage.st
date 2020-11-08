@@ -8,4 +8,5 @@ importMessage
 	file exists ifFalse: [ ^ false ].
 	self reloadDB.
 	self processMessage: file.
-	self saveDB
+	self saveDB.
+	self nbArticlesFound: (self countArticles)

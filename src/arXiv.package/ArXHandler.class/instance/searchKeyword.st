@@ -9,12 +9,17 @@ searchKeyword
 				ifTrue: [
 					assoc value do: [ :art |
 						found := found + 1.
-						art longPrintOn: self stdout.
 						self stdout
-							nextPutAll: '-----' ;
+							nextPutAll: '---- ' ;
+							nextPutAll: found asString ;
+							nextPutAll: ' ----' ;
 							nextPut: Character cr.
+						art longPrintOn: self stdout.
 					]
 				]
 	].
+	self stdout
+		nextPutAll: '---- ----' ;
+		nextPut: Character cr.
 	self nbArticlesFound: found.
 	self exitSuccess
