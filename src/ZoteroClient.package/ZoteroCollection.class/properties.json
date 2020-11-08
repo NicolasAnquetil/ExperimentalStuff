@@ -8,7 +8,7 @@
 	"instvars" : [
 		"name",
 		"key",
-		"parentCollectionKey",
+		"parentCollection",
 		"nbSubCollections",
 		"subCollections",
 		"nbItems",

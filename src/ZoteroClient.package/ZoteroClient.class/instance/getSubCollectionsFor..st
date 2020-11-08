@@ -1,8 +1,10 @@
-private
+api
 getSubCollectionsFor: aZoteroCollection
-	aZoteroCollection nbSubCollections = 0
-	ifTrue: [ #() ]
-	ifFalse: [
-		(self subCollectionsOf: aZoteroCollection key)
-			flatCollect: [ :coll | self getSubCollectionsFor: coll ]
-	]
+	^aZoteroCollection nbSubCollections = 0
+		ifTrue: [ { aZoteroCollection } ]
+		ifFalse: [ | subCollections |
+			subCollections := self subCollectionsOf: aZoteroCollection key.
+			subCollections do: [ :coll | coll parentCollection: aZoteroCollection ].
+			subCollections
+				flatCollect: [ :coll | self getSubCollectionsFor: coll ]
+		]
