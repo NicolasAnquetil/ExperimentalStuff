@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "arXiv",
+	"category" : "arXiv-core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

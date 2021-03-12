@@ -3,7 +3,7 @@ listArticles
 	|totalArt|
 	totalArt := 0.
 	self reloadDB.
-	(self articles flatCollect: #yourself)
+	(self articles flatCollectAsSet: #yourself)
 		do: [ :art |
 			totalArt := totalArt + 1.
 			art longPrintOn: self stdout.

@@ -1,5 +1,5 @@
 example
-example
+exampleWithNote
 	^ 'From e-prints@arxiv.org Sun Feb 16 14:56:26 2020
 Return-Path: e-prints@arxiv.org
 To: nicolas.anquetil@inria.fr

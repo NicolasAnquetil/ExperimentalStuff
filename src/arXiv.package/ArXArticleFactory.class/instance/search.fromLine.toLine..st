@@ -1,7 +1,7 @@
 private-parsing
 search: aString fromLine: startLine toLine: endLine
-	startLine to: endLine do: [ :i |
-		((lines at: i) beginsWith: aString)
-		ifTrue: [ ^ lines at: i ]
-	].
-	^''
+	| i |
+	i := self lineFor: [ :l | l beginsWith: aString ] fromLine: startLine toLine: endLine.
+	^i = 0
+		ifTrue: [ KeyNotFound signal ]
+		ifFalse: [ lines at: i ]

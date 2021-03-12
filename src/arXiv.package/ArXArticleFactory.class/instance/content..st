@@ -2,7 +2,7 @@ private-parsing
 content: aMessage
 	lines := aMessage lines.
 	
-	self setMimeBounds.
+	self setMessageBounds.
 
 	self setTitle.
 	self setAuthors.

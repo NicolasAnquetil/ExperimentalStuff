@@ -1,7 +1,7 @@
 tests
-testKeywords
+testKeywordsInNote
 	| keywords |
-	factory articleFrom: self example.
+	factory articleFrom: self exampleWithNote.
 	keywords := factory getKeywords.
 
 	self assert: keywords size equals: 2.

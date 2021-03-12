@@ -1,8 +1,8 @@
 private-parsing
-getMultilineField: aString endedBy: endString
+getMultilineField: startString endedBy: endString
 	| endLine startLine |
 	startLine := self
-		lineFor: [ :l | l beginsWith: aString ]
+		lineFor: [ :l | l beginsWith: startString ]
 		fromLine: self bodyStart
 		toLine: self bodyEnd.
 	endLine := self
@@ -11,4 +11,4 @@ getMultilineField: aString endedBy: endString
 		toLine: self bodyEnd.
 	^ self
 		joinMultiline: (lines copyFrom: startLine to: endLine - 1)
-		forField: aString
+		forField: startString

@@ -2,7 +2,7 @@ factory
 articleFrom: aSteam
 	| art |
 	lines := aSteam contents lines.
-	self setMimeBounds.
+	self setMessageBounds.
 	art := ArXArticle new.
 	art title: self getTitle.
 	art url: self getURL.
