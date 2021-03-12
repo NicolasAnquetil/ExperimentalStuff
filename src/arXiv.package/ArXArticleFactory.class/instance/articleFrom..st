@@ -1,11 +1,10 @@
 factory
 articleFrom: aSteam
-	| art |
 	lines := aSteam contents lines.
 	self setMessageBounds.
-	art := ArXArticle new.
-	art title: self getTitle.
-	art url: self getURL.
-	art authors: self getAuthors.
-	art abstract: self getAbstract.
-	^ art
+	article := ArXArticle new.
+	article title: self getTitle.
+	article url: self getURL.
+	article authors: self getAuthors.
+	article abstract: self getAbstract.
+	^ article

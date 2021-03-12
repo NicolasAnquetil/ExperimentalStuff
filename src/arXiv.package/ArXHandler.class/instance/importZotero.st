@@ -8,4 +8,8 @@ importZotero
 	key := self arguments second.
 	file := self getMboxFile: (self arguments third).
 	file ifNil: [ ^false ].
-	self processMessage: file.
+	self parseMessage: file.
+	self reloadDB.
+	self index: factory article at: { key }.
+	self saveDB.
+	self nbArticlesFound: (self countArticles)

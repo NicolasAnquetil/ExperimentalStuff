@@ -1,6 +1,6 @@
 tests
 testParsingSetup
-	factory lines: self example lines.
+	factory lines: self exampleWithNote lines.
 	self assert: factory lines size equals: 51.
 
 	factory setMessageBounds.
