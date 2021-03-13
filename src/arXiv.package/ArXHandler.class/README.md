@@ -2,7 +2,7 @@ Usage: arXiv <cmd>
 	
 Commands:
   importMessage <file.mbox> -- Imports given mbox file into DB (outputs a backup of the DB)
-  importZotero <collection> <file.mbox> -- Imports given mbox file into DB
+  importZotero <file.mbox> <collection> -- Imports given mbox file into DB
   listKeywords -- list all indexing key words in the DB
   listArticles -- list all indexed articles in the DB
   searchKeyword <keyword> -- search articles indexed with a given keyword

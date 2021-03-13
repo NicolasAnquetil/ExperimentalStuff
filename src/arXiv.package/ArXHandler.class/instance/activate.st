@@ -9,5 +9,5 @@ activate
    on: MessageNotUnderstood
 	do: [
 		self printHelp.
-		self exitFailure ].
+		self exitFailure: 'Could not process command:' , self arguments first ].
 	self exitSuccess 
