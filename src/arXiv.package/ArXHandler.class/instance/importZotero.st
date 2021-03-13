@@ -11,8 +11,4 @@ importZotero
 
 	key := ' ' join: (self arguments allButFirst: 2).
 
-	self parseMessage: file.
-	self reloadDB.
-	self index: factory article at: { key }.
-	self saveDB.
-	self nbArticlesFound: (self countArticles)
+	self toZotero: key
