@@ -8,4 +8,4 @@ toZoteroCollection: aCollectionName
 
 	pharoteroItem := self asPharoteroItem: (zotero getNewItem: 'document').
 	pharoteroCollection := zotero collectionNamed: aCollectionName.
-	zotero putItem: pharoteroItem incollection: pharoteroCollection
+	zotero putItem: pharoteroItem inCollection: pharoteroCollection
