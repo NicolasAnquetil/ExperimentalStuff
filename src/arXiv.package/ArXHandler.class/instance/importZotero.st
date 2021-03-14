@@ -11,4 +11,4 @@ importZotero
 
 	key := ' ' join: (self arguments allButFirst: 2).
 
-	self toZotero: key
+	factory article toZoteroCollection: key
