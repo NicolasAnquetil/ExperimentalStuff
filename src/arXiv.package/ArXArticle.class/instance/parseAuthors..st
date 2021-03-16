@@ -1,4 +1,4 @@
 activation
 parseAuthors: aString
 	^((', ' split: aString) flatCollect: [ :s | ' and ' split: s ])
-		collect: [ :auth | self parseAuthor: auth ]
+		collect: [ :auth | PharoteroAuthor name: auth ]
