@@ -1,11 +1,11 @@
 activation
 toZoteroCollection: aCollectionName
-	| zotero pharoteroItem pharoteroCollection |
+	| zotero pharoteroItem |
 	zotero := PharoteroServer new
 		url: PharoteroServer zoteroURL ;
 		defaultKey ;
 		yourself.
 
 	pharoteroItem := self asPharoteroItem: (zotero getNewItem: 'document').
-	pharoteroCollection := zotero collectionNamed: aCollectionName.
-	zotero putItem: pharoteroItem inCollection: pharoteroCollection
+	pharoteroItem parentCollection: (zotero collectionNamed: aCollectionName).
+	zotero putItem: pharoteroItem
