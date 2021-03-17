@@ -2,10 +2,11 @@ activation
 toZoteroCollection: aCollectionName
 	| zotero pharoteroItem |
 	zotero := PharoteroServer new
-		url: PharoteroServer zoteroURL ;
-		defaultKey ;
+		rmodIdentity ;
 		yourself.
 
-	pharoteroItem := self asPharoteroItem: (zotero getNewItem: 'document').
-	pharoteroItem parentCollection: (zotero collectionNamed: aCollectionName).
+	pharoteroItem := self asPharoteroItem: (zotero newItem: 'document') readStream.
+	pharoteroItem
+		parentCollection: (zotero collectionNamed: aCollectionName) ;
+		date: Date today.
 	zotero putItem: pharoteroItem
