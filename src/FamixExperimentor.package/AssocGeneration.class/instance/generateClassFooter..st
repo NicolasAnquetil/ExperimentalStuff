@@ -1,5 +1,5 @@
 running
 generateClassFooter: aFameProp
-	'	tag: ''Entities'';' traceCr.
-	'	package: ''Famix-Java-Entities''' traceCr.
+	'	tag: ''experimentor'';' traceCr.
+	'	package: ''Famix-Java-Entities'') install.' traceCr.
 	'' traceCr.

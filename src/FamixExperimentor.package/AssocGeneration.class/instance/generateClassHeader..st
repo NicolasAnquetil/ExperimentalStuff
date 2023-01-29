@@ -1,6 +1,11 @@
 running
 generateClassHeader: aFameProp
-	'FamixJavaEntity << ' trace.
+	'' traceCr.
+	'" ----- ' trace.
+	self generateClassName: aFameProp.
+	' ----- "' traceCr.
+	'' traceCr.
+	'(FamixJavaEntity << #' trace.
 	self generateClassName: aFameProp.
 	'' traceCr.
 	'	traits: {FamixTAssociation};' traceCr.
