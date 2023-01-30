@@ -1,3 +1,3 @@
-running
+generating
 generateSlotName: aFameProp
 	^aFameProp name asSingular

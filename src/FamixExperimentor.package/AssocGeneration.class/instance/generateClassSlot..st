@@ -1,4 +1,4 @@
-running
+generating
 generateClassSlot: aFameProp
 	'		#' trace.
 	(self generateSlotName: aFameProp) trace.

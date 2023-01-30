@@ -1,4 +1,4 @@
-running
+generating
 generateClassSlots: aFameProp
 	'	slots: {' traceCr.
 	self generateClassSlot: aFameProp.

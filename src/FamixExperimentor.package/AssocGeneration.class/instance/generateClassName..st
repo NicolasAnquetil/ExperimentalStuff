@@ -1,5 +1,3 @@
-running
+generating
 generateClassName: aFameProp
-	'FamixJava' trace.
-	aFameProp name capitalized trace.
-	'Assoc' trace.
+	^'FamixJava' , (aFameProp name capitalized) , 'Assoc'

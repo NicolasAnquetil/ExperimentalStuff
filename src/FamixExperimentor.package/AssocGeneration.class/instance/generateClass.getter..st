@@ -1,6 +1,6 @@
-running
+generating
 generateClass: classProp getter: slotProp
-	self generateClassName: classProp.
+	(self generateClassName: classProp) trace.
 	' compile:' traceCr.
 	$' trace.
 	(self generateSlotName: slotProp) traceCr.

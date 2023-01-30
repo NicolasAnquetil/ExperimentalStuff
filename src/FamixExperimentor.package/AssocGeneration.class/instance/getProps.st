@@ -1,4 +1,4 @@
-running
+accessing
 getProps
 	"all 'non-association' relations"
 	^(FamixJavaModel metamodel elements
